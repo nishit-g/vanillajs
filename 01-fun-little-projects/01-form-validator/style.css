@@ -33,6 +33,7 @@ body{
 .form-control{
   margin-bottom: 10px;
   padding-bottom: 10px;
+  position: relative;
 }
 
 .form-control label{
