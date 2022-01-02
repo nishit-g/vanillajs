@@ -7,4 +7,33 @@
 
 body{
   font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #242333;
+  color: #fff;
 }
+
+.seat-info{
+  display: flex;
+  list-style: none;
+}
+
+.seat-info li{
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.seat{
+  background-color: #fff;
+  height: 10px;
+  width: 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: 5px;
+}
+
+
