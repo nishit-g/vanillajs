@@ -37,3 +37,22 @@ body{
 }
 
 
+.row{
+  display: flex;
+}
+
+.seat:nth-of-type(2) {
+  margin-right: 18px;
+}
+
+.seat:nth-last-of-type(2) {
+  margin-left: 18px;
+}
+
+.row:nth-of-type(2){
+  margin-bottom: 10px;
+}
+
+.row:nth-last-of-type(1){
+  margin-top: 10px;
+}
