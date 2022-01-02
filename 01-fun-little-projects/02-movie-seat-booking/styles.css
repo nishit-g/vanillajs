@@ -56,3 +56,15 @@ body{
 .row:nth-last-of-type(1){
   margin-top: 10px;
 }
+
+.seat-container .seat:not(.occupied):hover{
+  transform: scale(1.2);
+}
+
+.seat.occupied{
+  background-color: coral;
+}
+
+.seat.selected{
+  background-color: aquamarine;
+}
